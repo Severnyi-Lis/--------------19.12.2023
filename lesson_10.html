@@ -5,9 +5,12 @@
     <script src='task/task.js'> </script>
   </head>
   <body>
-    <form id="my body" action="" method="">
+    <form id="my_body" action="" method="">
       <label for='weight'>Ваш вес</label>
-        <input type="number" id=" weihgt">
+        <input type="number" id=" weihgt" name="mass">
+        <p><input type='number' id="year" placeholder='Ваш год рождения'></p>
+        <input type='button' value='Вычислить возраст' onclick='calc_age(year.value)'>
+<h1>Ваш возраст примерно </h1><p id='age'></p>
     </form>
   </body>
 </html>
